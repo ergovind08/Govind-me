@@ -6,7 +6,8 @@
     "dev": "turbo run dev -parallel",
     "lint": "turbo run lint",
     "clean": "turbo run clean",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy":"turbo run build --scope=app --includeDependencies --no-deps",
   },
   "turbo":{
     "pipeline":{
